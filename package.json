@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Universal extraction engine for sanpo",
   "type": "module",
-  "main": "extract.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node extract.js",
     "links": "node extract-links.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "linkedom": "^0.18.0"
   }
 }
